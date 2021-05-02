@@ -54,29 +54,3 @@ birthGrowingWall_left = Wall That Grows To The Left
 birthChasy1 = Nanorobot
 birthChasy2 = Meanie
 birthAmoeba = Blob
-
-
-
-Other "Tile" Values:
-Tile values are actually just referring to Director cast member numbers.
-These values aren't intended to be used in actual levels, and are listed here just for completion.
-
-4 = Static Exit object. (Used for in-game Editor.)
-10 = Static Dexter object. (Used for in-game Editor.)
-18 = Static Chip Object. (Used for in-game Editor.)
-22 = Static Silver Bit object. (Used for in-game Editor.)
-28 = Static Screw object. (Used for in-game Editor.)
-29 = Static Floppy object. (Used for in-game Editor.)
-30 = Static Left-turning Bug object. (Used for in-game Editor.)
-35 = Static WallRight object.(Used for in-game Editor.)
-36 = Static WallLeft object.(Used for in-game Editor.)
-39 = Static Neutron object.(Used for in-game Editor.)
-51 = Static Right-turning Bug object. (Used for in-game Editor.)
-53 = Static Random-turning Bug object. (Used for in-game Editor.)
-57 = Static Turret Robot object. (Used for in-game Editor.)
-66 = Static Meanie Guy object. (Used for in-game Editor.)
-217 = Static Amoeba object. (Used for in-game Editor.)
-223 = Static Yellow Bit object. (Used for in-game Editor.)
-227 = Static Bronze Bit object. (Used for in-game Editor.)
-282 = Static Screw Enemy object. (Used for in-game Editor.)
-345 = Static Screw Generator object. (Used for in-game Editor.)
