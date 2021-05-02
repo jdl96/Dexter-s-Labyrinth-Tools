@@ -1,0 +1,82 @@
+Level File Structure (line breaks added to tile rows to only increase readability - don't actually do that or it'll crash!):
+
+#levelDescriptionFile (Required file header.)
+[[X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X],
+[X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X],
+[X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X],
+[X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X],
+[X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X],
+[X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X],
+[X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X], (Tile data only - X is the value that determines what the tile should be.)
+[X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X],
+[X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X],
+[X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X],
+[X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X],
+[X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X],
+[X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X]]
+["birthPlayer(me, X, Y)", "birthDoor(me, X, Y)"] (Object data - X and Y are the coordinates of the tile it will be placed on.)
+15 (Number of required chips.)
+"Unseen Level Name Goes Here"
+(Insert your second level here, and so on...)
+#endOfFile (Required file footer.)
+
+
+Level Tile Values:
+
+1 = Red Wall
+2 = Empty
+5 = Light Brown Sand
+6 = Blue Sand
+7 = Green Sand
+8 = Dark Brown Sand
+9 = Blue Wall
+
+Object Values:
+
+Object Usage Example: birthPlayer(me, 12, 7)
+
+birthPlayer = Dexter
+birthDoor = Level Exit
+birthDiamond = Microchip
+birthRandy = Random-turning Virus
+birthLefty = Left-turning Virus
+birthRighty = Right-turning Virus
+birthBlueCan = Gold Byte
+birthRing = Silver Byte
+birthRedCan = Bronze Byte
+birthStone = Screw
+birthStoneMother = Screw Generator
+birthContainerStone = Screw Enemy
+birthWarp1 = Floppy
+birthWarp2 = Neutrons
+birthGrowingWall_right = Wall That Grows To The Right
+birthGrowingWall_left = Wall That Grows To The Left
+birthChasy1 = Nanorobot
+birthChasy2 = Meanie
+birthAmoeba = Blob
+
+
+
+Other "Tile" Values:
+Tile values are actually just referring to Director cast member numbers.
+These values aren't intended to be used in actual levels, and are listed here just for completion.
+
+4 = Static Exit object. (Used for in-game Editor.)
+10 = Static Dexter object. (Used for in-game Editor.)
+18 = Static Chip Object. (Used for in-game Editor.)
+22 = Static Silver Bit object. (Used for in-game Editor.)
+28 = Static Screw object. (Used for in-game Editor.)
+29 = Static Floppy object. (Used for in-game Editor.)
+30 = Static Left-turning Bug object. (Used for in-game Editor.)
+35 = Static WallRight object.(Used for in-game Editor.)
+36 = Static WallLeft object.(Used for in-game Editor.)
+39 = Static Neutron object.(Used for in-game Editor.)
+51 = Static Right-turning Bug object. (Used for in-game Editor.)
+53 = Static Random-turning Bug object. (Used for in-game Editor.)
+57 = Static Turret Robot object. (Used for in-game Editor.)
+66 = Static Meanie Guy object. (Used for in-game Editor.)
+217 = Static Amoeba object. (Used for in-game Editor.)
+223 = Static Yellow Bit object. (Used for in-game Editor.)
+227 = Static Bronze Bit object. (Used for in-game Editor.)
+282 = Static Screw Enemy object. (Used for in-game Editor.)
+345 = Static Screw Generator object. (Used for in-game Editor.)
